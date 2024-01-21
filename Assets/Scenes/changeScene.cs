@@ -13,6 +13,6 @@ public class changeScene : MonoBehaviour
         data.condition = Select_data.condition;
         string json = JsonUtility.ToJson(data);
 
-        System.IO.File.WriteAllText("/Users/ohuchiyuki/UoA/4year/Plot_data_var2/Assets/Resources/JSON/Select_data.json",json);
+        System.IO.File.WriteAllText("../Plot_data/Assets/Resources/JSON/Select_data.json",json);
     }
 }
